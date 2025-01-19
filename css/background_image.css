@@ -1,0 +1,8 @@
+body {
+    background-image: url('../photos/galaxy_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.3;
+}
