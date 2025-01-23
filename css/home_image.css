@@ -8,8 +8,8 @@ img {
     padding: 0;
     display: block;
     margin: 0 auto;
-    height: 29%;
+    height: 33%;
     width: 100%;
     object-fit: cover;
-    opacity: 0.8;
+    opacity: 1;
 }
