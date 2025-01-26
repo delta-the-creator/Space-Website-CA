@@ -1,0 +1,15 @@
+.home_figure {
+    display: flex;
+    float: right;
+    width: 498px;
+    height: 391px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.home_figcaption {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
