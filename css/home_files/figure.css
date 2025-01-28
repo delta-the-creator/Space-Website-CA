@@ -1,0 +1,26 @@
+.home_figure {
+    display: table;
+    float: right;
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 498px;
+    height: auto;
+}
+.home_figure img {
+    display: table-cell;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.home_figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    text-align: center;
+ 
+}
