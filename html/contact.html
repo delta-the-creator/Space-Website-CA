@@ -1,4 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/logo.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/page.css">
+    <link rel="stylesheet" href="../css/centered.css">
+    <link rel="stylesheet" href="../css/contact_files/maps.css">
+    <link rel="stylesheet" href="../css/contact_files/forms.css">
+    <link rel="stylesheet" href="../css/contact_files/info.css">
 </head>
 <body>
+    <a href = "home.html">
+        <img src="../photos/logo.jpg" class="logo">
+    </a>
+
+    <div class="topnav">
+        <a href="contact.html">Contact</a>
+        <a href="future.html">Future</a>
+        <a href="history.html">History</a>
+        <a href="home.html">Home</a>
+        <a href="javascript:void(0);" class="icon" onclick="navbar()"></a>
+    </div>
+
+    <div class="centered">
+        <div class="info">
+            <h1>Contact us</h1>
+            <p>
+                Please send us feedback on the information and educational layout of our page.
+            </p>
+        </div>
+    </div>
+    <div class="form-container">
+        <div class="centered">
+            <form>
+                <div id="name">
+                    <label>Name:</label>
+                    <input type="text" value="Enter your full name." maxlength="100" onkeydown="return /[a-z]/i.test(event.key)"><br>
+                </div>
+                <div id="email">
+                    <label>Email:</label>
+                    <input type="text" value="Enter your email address." maxlength="255"><br>
+                </div>
+                <div id="message">
+                    <label>Message:</label>
+                    <textarea maxlength="1000" rows="4" cols="50">Type your message here.</textarea>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="info">
+        <h2>Find us here:</h2>
+    </div>
+
+    <div class="maps">
+        <div class="centered">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10102.253497913669!2d-3.5434728695259063!3d50.7280390463421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da4113c8130b1%3A0x7f3efd04b3287246!2sUniversity%20of%20Exeter!5e0!3m2!1sen!2sse!4v1739662990861!5m2!1sen!2sse" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <footer id="footer">
+        @Copyright 2025. All rights reserved.
+    </footer>
+    
 </body>
+<script src="../javascript/navbar.js"></script>
+<script src="../javascript/google_maps.js"></script>
+</html>
