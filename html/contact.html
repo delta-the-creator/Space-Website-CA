@@ -41,15 +41,15 @@
             <form>
                 <div id="name">
                     <label>Name:</label>
-                    <input type="text" value="Enter your full name." maxlength="100" onkeydown="return /[a-z]/i.test(event.key)"><br>
+                    <input type="text" placeholder="Enter your full name." maxlength="100" onkeydown="return /[a-z]/i.test(event.key)" required><br>
                 </div>
                 <div id="email">
                     <label>Email:</label>
-                    <input type="email" value="Enter your email address." maxlength="255"><br>
+                    <input type="email" maxlength="255" placeholder="Enter your email address" required><br>
                 </div>
                 <div id="message">
                     <label>Message:</label>
-                    <textarea maxlength="1000" rows="4" cols="50">Type your message here.</textarea>
+                    <textarea maxlength="1000" rows="4" cols="50" placeholder="Type your message here" required></textarea>
                 </div>
                 <input type="submit" value="Submit">
             </form>
@@ -71,5 +71,5 @@
     
 </body>
 <script src="../javascript/navbar.js"></script>
-<script src="../javascript/google_maps.js"></script>
+<script src="../javascript/forms.js"></script>
 </html>
