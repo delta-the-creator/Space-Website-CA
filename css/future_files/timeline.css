@@ -4,6 +4,7 @@
     margin: 0 auto; /* Center the timeline */
 }
 
+/* Styling the container after*/
 .timeline-container::after {
     content: '';
     position: absolute;
@@ -16,6 +17,7 @@
     z-index: -1;
 }
 
+/*Styling the text container and making sure text does not wrap around image*/
 .text-wrapper {
     padding: 10px 30px; 
     position: relative; 
@@ -25,6 +27,7 @@
     clear: both;
 }
 
+/* Classes for if the timeline card is on the left or right of the timeline */
 .left{ 
     left: 0; 
 } 
@@ -36,6 +39,7 @@
     left:-10px; 
 } 
 
+/*Container for each card on the timeline*/
 .content{ 
     padding: 15px; 
     background-color: lightgrey; 
@@ -62,6 +66,7 @@
     text-align: center;
 }
 
+/*Styling the image in the container*/
 .content img {
     border-radius: 50%;
     width: 150px;    

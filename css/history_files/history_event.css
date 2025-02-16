@@ -1,3 +1,5 @@
+
+/* Styling the container */
 .post-container { 
     border: 1px solid transparent;
     overflow: auto;
@@ -10,6 +12,7 @@
     box-shadow: 0 0 10px #9ecaed;
 }
 
+/* Styling the container for the image and the image itself */
 .post-thumb {
     float: right;
     margin-right: 50px;
@@ -24,6 +27,7 @@
     height: auto;
 }
 
+/* Styling the body text associated with the image*/
 .post-content {
     margin-left: 50px;
     margin-right: 50px;
@@ -36,5 +40,4 @@
     font-size: 20px;
     color: darkblue;
     background: white;
-
 }

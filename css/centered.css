@@ -1,3 +1,4 @@
+/* CSS Class for centering everything in the container*/
 .centered {
     display: flex;
     flex-direction: column;

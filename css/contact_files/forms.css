@@ -1,13 +1,19 @@
+/* Styling for the forms */
+
+
+/* Name Input Box */
 #name input {
     margin-top: 10px;
     outline: gray;
 }
 
+/* Email Input Box */
 #email input {
     margin-top: 10px;
     outline: gray;
 }
 
+/* Message Text Area */
 #message textarea {
     width: 600px;
     height: 250px;
@@ -18,6 +24,7 @@
     outline: gray;
 }
 
+/* Class for the Submission button */
 input[type=submit] {
     background-color: darkblue;
     color: white;
@@ -34,6 +41,8 @@ input[type=submit]:hover {
     color: lightblue;
 }
 
+/* Container for all the input boxes and forms and controlling
+   the input boxes  */
 .form-container {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;

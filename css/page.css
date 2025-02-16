@@ -1,3 +1,5 @@
+/* This sets the height of the page to cover the entire page*/
+
 html, body {
     height: 100%;
     margin: 0;

@@ -1,16 +1,21 @@
 
-/* Controlling the container for the body text */
-.intro p{
-    text-align: center;
+/* Styling the paragraphs */
+.home_info p{
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: black;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 10px;
 }
 
-.intro h5 {
+/* Styling the header for the content */
+.home_info :is(h2) {
     text-decoration: none;
-    text-align: center;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     margin-left: 45px;
     margin-right: 45px;
     margin-top: 30px;
@@ -18,4 +23,3 @@
     font-size: 24px;
     color: darkblue;
 }
-

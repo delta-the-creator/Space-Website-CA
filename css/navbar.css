@@ -1,8 +1,14 @@
+/* CSS for the Navbar*/
+
+
+/* Styling for the bar*/
 .topnav {
     background-color: blue;
     overflow: hidden;
 }
 
+
+/* Styling for the anchors on the Navbar */
 .topnav a {
     float: right;
     display: block;
@@ -15,6 +21,7 @@
     font-weight: bold;
 }
 
+/* When you hover over the anchors on the navbar*/
 .topnav a:hover {
     background-color: lightblue;
     color: black;

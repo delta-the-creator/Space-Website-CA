@@ -11,7 +11,8 @@
     flex: 25%;
     max-width: 25%;
 }
-  
+
+/* Styling the image for the grid*/
 .column img {
     margin-top: 20px;
     margin-left: 20px;
@@ -20,6 +21,7 @@
     max-width: 80%;
 }
 
+/* The description under the image */
 .photocard {
     text-align: center;
     text-decoration: none;
