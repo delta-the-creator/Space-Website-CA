@@ -22,6 +22,8 @@ Displays the Contact Page where users can contact us
 **Please make sure the Virtual Machine on Microsoft Azure Labs is running before opening this Link.**
 http://ml-lab-4d78f073-aa49-4f0e-bce2-31e5254052c7.ukwest.cloudapp.azure.com:52087/web_development/Web-Development/html/home.html
 
+## Scored 82%
+
 
 
 
